@@ -156,6 +156,16 @@ const NavBer: React.FC<NavBerProps> = ({
             >
               <HiClipboardList className="w-4 h-4 text-[#176B45]" /> Order
             </Link>
+            <Link
+              href="/dashboard/admin"
+              className={`transition-colors flex items-center gap-1.5 hover:text-[#176B45] ${
+                isActive("/dashboard/admin")
+                  ? "border-b-2 border-[#176B45] text-[#176B45] pb-1 font-semibold"
+                  : ""
+              }`}
+            >
+              <HiClipboardList className="w-4 h-4 text-[#176B45]" /> admin
+            </Link>
           </nav>
 
           {/* Right Side Actions (Cart & Profile) */}
