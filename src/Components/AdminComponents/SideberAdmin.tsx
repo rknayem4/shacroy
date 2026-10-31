@@ -38,6 +38,11 @@ const links: SidebarLink[] = [
     href: "/dashboard/admin/manage-home",
     icon: BiHome, // Replace with the actual icon component for Home management
   },
+   {
+    name: "Employee",
+    href: "/dashboard/admin/employee",
+    icon: FaUserTie,
+  },
   {
     name: "Product",
     href: "/dashboard/admin/product",
@@ -48,11 +53,7 @@ const links: SidebarLink[] = [
     href: "/dashboard/admin/add-product",
     icon: MdOutlineAddBox,
   },
-  {
-    name: "Employee",
-    href: "/dashboard/admin/employee",
-    icon: FaUserTie,
-  },
+ 
   {
     name: "Manage User",
     href: "/dashboard/admin/manage-user",
